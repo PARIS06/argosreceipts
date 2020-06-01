@@ -1,0 +1,19 @@
+.app {
+    padding-top: 0.9375rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 0.9375rem;
+    background-color: rgba(240, 242, 245, 1);
+}
+
+// Panel content
+.panel-content {
+    h1,
+    h2 {
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+}
+
+@import "src/Components/UI/Buttons/style";
